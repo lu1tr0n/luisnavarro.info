@@ -1,0 +1,18 @@
+{
+  "name": "luisnavarro",
+  "description": "Hoja de Vida",
+  "main": "",
+  "authors": [
+    "Luis Navarro <lu1tr0n.gh0st@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://luisnavarro.info",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

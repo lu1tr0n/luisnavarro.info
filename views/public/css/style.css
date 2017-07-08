@@ -1,0 +1,391 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+body {
+    background-color:#f5f5f5
+}
+main {
+    margin:auto;
+    max-width:100%
+}
+.bg-color {
+    background-color:#009688!important
+}
+.bg-color-darken {
+    background-color:#00796b!important
+}
+.text-color {
+    color:#009688!important
+}
+.top-bar {
+    padding:30px;
+    color:#fff
+}
+.top-bar span {
+    font-size:35px
+}
+.top-bar a {
+    color:#fff!important;
+    font-size:28px;
+    text-align:right
+}
+.material-box {
+    padding:10px;
+    text-align:center;
+    color:#fff
+}
+.material-box h6 {
+    font-size:17px
+}
+.photo {
+    width:200px;
+    height:200px;
+    margin:auto;
+    border-radius:50%;
+    overflow:hidden;
+    border:10px solid #4db6ac
+}
+.photo img {
+    width:100%
+}
+.social-media a {
+    display:inline-block;
+    width:50px;
+    font-size:30px;
+    padding:1px;
+    color:#004d40;
+    transition:all .9s
+}
+.social-media a:hover {
+    color:#009688;
+    background:#00695c
+}
+.waves-effect.waves-color .waves-ripple {
+    background-color:#4db6ac
+}
+.card-panel {
+    margin-top:25px;
+    margin-bottom:25px
+}
+.side-nav li a {
+    font-size:17px;
+    text-transform:uppercase
+}
+.about .btn {
+    width:180px
+}
+.about-image {
+    padding-left:0;
+    text-align:center;
+    margin-bottom:-5px
+}
+.work-skills p {
+    font-size:20px;
+    color:#383838;
+    font-weight:500;
+    margin-bottom:0
+}
+.work-skills .col-md-4 {
+    margin-top:20px;
+    margin-bottom:20px
+}
+.work-expreince h4 {
+    margin-top:0
+}
+.education p, .work-expreince p {
+    color:#818181;
+    font-size:18px;
+    line-height:40px;
+    margin-bottom:0
+}
+.education p.text-color {
+    margin-top:-10px
+}
+.star {
+    margin:0;
+    color:orange!important;
+    font-size:18px
+}
+
+.education .btn {
+    margin-top:20px
+}
+.interest {
+    padding:25px;
+    transition:all 1s;
+    border:1px solid #009688;
+    font-size:45px;
+    text-align:center;
+    cursor:pointer;
+    margin-top:10px;
+    margin-bottom:10px
+}
+.interest:hover {
+    background-color:#009688;
+    color:#fff!important
+}
+.portfolio .tabs .indicator {
+    height:2px!important;
+    background-color:#009688
+}
+.portfolio img {
+    width:90%;
+    margin:auto!important
+}
+.portfolio .material-placeholder {
+    margin-top:10px!important
+}
+.portfolio-container {
+    margin-top:20px;
+    padding-bottom:35px
+}
+.tabs .tab a {
+    color:#009688!important;
+    cursor:pointer
+}
+.pricing .col-md-4 {
+    padding:0;
+    text-align:center
+}
+.pricing-head {
+    color:#7a7a7a;
+    padding:15px;
+    border-bottom:1px solid #ededed
+}
+.pricing-body {
+    padding:25px
+}
+.pricing p {
+    font-size:19px;
+    margin-bottom:35px
+}
+.pricing h2 {
+    font-weight:bold
+}
+.contact h3 {
+    margin-top:25px
+}
+footer.page-footer form {
+    text-align:left
+}
+.contact .col.s2 i {
+    margin-top:20px;
+    font-size:40px
+}
+.contact .col.s2 {
+    text-align:center
+}
+.contact p {
+    color:#818181;
+    font-size:18px
+}
+.contact iframe {
+    width:100%;
+    height:450px
+}
+footer.page-footer {
+    margin-top:35px;
+    color:#fff!important
+}
+footer .instagram img:hover {
+    opacity:.7
+}
+footer .instagram {
+    margin-top:25px
+}
+footer.page-footer .instagram img {
+    width:90px;
+    height:90px;
+    margin:auto
+}
+footer .social-media a {
+    font-size:25px
+}
+footer.page-footer {
+    background:#282828;
+    text-align:center
+}
+footer.page-footer .footer-copyright {
+    background:#1a1a1a;
+    margin-top:25px
+}
+footer a {
+    color:#009688
+}
+@media only screen and (max-width:450px) {
+    h2 {
+        font-size:26px
+    }
+    .top-bar span {
+        font-size:28px
+    }
+    .top-bar {
+        padding:15px
+    }
+    h1 {
+        font-size:2.5rem
+    }
+}
+@media only screen and (max-width:1522px) {
+    .container {
+        width:100%!important
+    }
+    .container .row {
+        margin-left:0
+    }
+}
+@media only screen and (max-width:1145px) {
+    .interest {
+        padding:10px
+    }
+    .c100.big {
+        font-size:190px!important
+    }
+    h1 {
+        font-size:3rem
+    }
+    footer.page-footer .instagram img {
+        width:60px;
+        height:60px
+    }
+}
+@media only screen and (max-width:993px) {
+    .interest {
+        padding:25px
+    }
+    .c100.big {
+        font-size:220px!important
+    }
+    footer.page-footer .instagram img {
+        width:90px;
+        height:90px
+    }
+    .top-bar {
+        position:fixed;
+        width:100%;
+        z-index:99
+    }
+    .about {
+        margin-top:15px
+    }
+}
+@media only screen and (max-width:1280px) {
+    header, main, footer {
+        padding-left:0!important
+    }
+    .fixed-action-btn {
+        display:block!important
+    }
+}
+header, main, footer {
+    padding-left:300px
+}
+.row {
+    width:100%!important;
+    margin-bottom:0
+}
+.container .row {
+    margin-left:0!important;
+    margin-right:0!important
+}
+.c100 {
+    float:none;
+    margin:auto
+}
+h3 {
+    margin-top:50px;
+    color:#4a4a4a;
+    margin-bottom:-10px
+}
+.c100.big {
+    font-size:230px
+}
+.linear-progress {
+    margin-top:55px
+}
+.progress {
+    height:15px;
+    background-color:#ccc
+}
+.fixed-action-btn {
+    display:none
+}
+iframe {
+    border:0
+}
+
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+    border-bottom:1px solid #009688
+}
+.padding-left-reset {
+    padding-left:0
+}
+header{
+    background-color: white;
+}
+
+/* Theme Begin */
+.bg-color {
+    background-color:#1976d2!important
+}
+.bg-color-darken {
+    background-color:#1976d2!important
+}
+.text-color {
+    color:#2196f3!important
+}
+.photo {
+    border:10px solid #7abfff
+}
+.social-media a {
+    color:#3697f0
+}
+.social-media a:hover {
+    color:#2196f3;
+    background:#1565c0
+}
+.waves-effect.waves-color .waves-ripple {
+    background-color:#42a5f5
+}
+.interest:hover {
+    background-color:#2196f3
+}
+.portfolio .tabs .indicator {
+    background-color:#2196f3
+}
+.tabs .tab a {
+    color:#2196f3!important
+}
+footer a {
+    color:#2196f3
+}
+.interest {
+    border:1px solid #2196f3
+}
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+    border-bottom:1px solid #2196f3
+}
+input:not([type]):focus:not([readonly])+label, input[type=text]:focus:not([readonly])+label, input[type=password]:focus:not([readonly])+label, input[type=email]:focus:not([readonly])+label, input[type=url]:focus:not([readonly])+label, input[type=time]:focus:not([readonly])+label, input[type=date]:focus:not([readonly])+label, input[type=datetime]:focus:not([readonly])+label, input[type=datetime-local]:focus:not([readonly])+label, input[type=tel]:focus:not([readonly])+label, input[type=number]:focus:not([readonly])+label, input[type=search]:focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+    color:#42a5f5
+}
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom:1px solid #2196f3
+}
+.pie, .c100 .bar, .c100.p51 .fill, .c100.p52 .fill, .c100.p53 .fill, .c100.p54 .fill, .c100.p55 .fill, .c100.p56 .fill, .c100.p57 .fill, .c100.p58 .fill, .c100.p59 .fill, .c100.p60 .fill, .c100.p61 .fill, .c100.p62 .fill, .c100.p63 .fill, .c100.p64 .fill, .c100.p65 .fill, .c100.p66 .fill, .c100.p67 .fill, .c100.p68 .fill, .c100.p69 .fill, .c100.p70 .fill, .c100.p71 .fill, .c100.p72 .fill, .c100.p73 .fill, .c100.p74 .fill, .c100.p75 .fill, .c100.p76 .fill, .c100.p77 .fill, .c100.p78 .fill, .c100.p79 .fill, .c100.p80 .fill, .c100.p81 .fill, .c100.p82 .fill, .c100.p83 .fill, .c100.p84 .fill, .c100.p85 .fill, .c100.p86 .fill, .c100.p87 .fill, .c100.p88 .fill, .c100.p89 .fill, .c100.p90 .fill, .c100.p91 .fill, .c100.p92 .fill, .c100.p93 .fill, .c100.p94 .fill, .c100.p95 .fill, .c100.p96 .fill, .c100.p97 .fill, .c100.p98 .fill, .c100.p99 .fill, .c100.p100 .fill {
+    border:.08em solid #2196f3
+}
+.c100:hover>span {
+    color:#2196f3
+}
+a:link{
+    text-decoration: none;
+}

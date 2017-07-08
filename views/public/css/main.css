@@ -1,0 +1,51 @@
+/*------------------------------------------------------------------
+[Stylesheet]
+
+Project:	One Page Material CV Template
+Version:	1.0
+Last change:	26/06/17 
+Primary use:	CV-Personal 
+-------------------------------------------------------------------*/
+
+/* fontawsome.io icons pack */
+@import url("font-awesome.min.css");
+/* materialize css */
+@import url("materialize.min.css");
+/* bootstrap grid system */
+@import url("bootstrap.min.css");
+/* Normalize css */
+@import url("normalize.css");
+/* Morris CSS  */
+@import url("morris.css");
+/* swiperjs slide plugin css */
+/*@import url("swiper.min.css");*/
+/* style */
+/*@import url("style.min.css");*/
+/* theme color */
+@import url("style.css");
+
+/*------------------------------------------------------------------
+[Table of contents]  (style.css)
+
+1. Body
+2. Top Bar / .top-bar
+3. About / .about
+4. Work Skills / .work-skills
+5. Portfolio / .portfolio
+6. Service / .service
+7. Pricing / .pricing
+8. Contact / .contact
+9. Footer / .footer
+10. Content Header: H3
+
+
+/*------------------------------------------------------------------
+# [Color Theme]
+
+# Pink : theme-colors/pink.min.css
+# Blue : theme-colors/blue.min.css
+# Green: theme-colors/green.min.css
+# Cyan: theme-colors/teal.min.css
+# Orange: theme-colors/orange.min.css
+# Teal : Default
+# */
