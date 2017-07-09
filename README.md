@@ -2,8 +2,10 @@
 
 ![enter image description here](http://luisnavarro.info/img/me.png)
 
-**Descripcion:** 
-Desarrollador Full Stack
+#### Desarrollador Full Stack
+
+**Descripcion:**
+
 *Soy Estudiantes de Ingenieria en Sistemas y Redes con 5 años en el campo de la informatica. Actualmente me estoy especializando en Servidores y Redes en la Universidad Gerardo Barrios. Me apasiona el desarrollo de nuevas herramientas para automatizar el trabajo. He desarrollado en python, Android, PHP, y soy Desarrollo Full Stack JavaScript. En mi tiempo libre sigo aprendiendo nuevas herramientas para desarrollar en los diferentes lenguajes.* 
 
 **Description:**
