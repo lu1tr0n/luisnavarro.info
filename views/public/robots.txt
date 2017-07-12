@@ -1,4 +1,9 @@
 # www.robotstxt.org/
+#
+#   Programador: Luis Navarro(lu1tr0n)
+#   Sitio: luisnavarro.info
+#   Descripcion: Sitio personal de información academica
+#
 
 # Allow crawling of all content
 User-agent: *
