@@ -13,6 +13,13 @@
 var express = require('express');
 var router = express.Router();
 
+/*
+ *  Config SEO 
+ * Install: npm install express-sitemap
+ * For sitemap.xml 
+ */
+var sitemap = require('express-sitemap')();
+
 // Libreria para mandar correo
 var nodemailer = require("nodemailer");
 
@@ -34,7 +41,7 @@ router.get('/', function(req, res, next) {
 
 router.post('/send',function(req,res){
 
-    console.log(req.body);
+   // console.log(req.body);
 
 	// setup e-mail data with unicode symbols
   var mailOptions = {
