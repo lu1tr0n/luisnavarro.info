@@ -67,4 +67,23 @@ router.post('/send',function(req,res){
 	
 });
 
+/*
+ * sitemap
+ */
+var map = sitemap({
+  generate: router,
+  cache: 60000, // enable 1m cache
+});
+
+router.get('/sitemap.xml', function(req, res) { // send XML map
+
+  map.XMLtoWeb(res);
+});
+
+router.get('/robots.txt', function(req, res) { // send TXT map
+
+  map.TXTtoWeb(res);
+});
+
+
 module.exports = router;
